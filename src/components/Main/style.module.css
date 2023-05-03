@@ -1,0 +1,129 @@
+.main__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    cursor: default;
+}
+.main__wrapper {
+    display: flex;
+}
+.main__image_wrapper {
+    border-radius: 50%;
+    transform: rotate(4deg);
+    z-index: 0;
+}
+.main__image{
+    position: absolute;
+    width: 527.97px;
+    height: 658.23px;
+    left: 250px;
+    top: 100px;
+    z-index: 2;
+}
+.main__image_elipse{
+    position: absolute;
+    width: 87.52px;
+    height: 87.52px;
+    left: 50px;
+    top: 210px;
+}
+.main__image_lightning1{
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    left: 600px;
+    top: 80px;
+    transform: rotate(-45.11deg);
+}
+.main__image_lightning2{
+    position: absolute;
+    width: 80.88px;
+    height: 120.89px;
+    left: 200px;
+    top: 480px;
+    transform: rotate(14.89deg);
+}
+.main__image_money{
+    position: absolute;
+    width: 202.28px;
+    height: 202.28px;
+    left: 600px;
+    top: 350px;
+    z-index: 3;
+}
+.main__image_pig{
+    position: absolute;
+    width: 140.38px;
+    height: 171.28px;
+    left: 300px;
+    top: 230px;
+}
+.main__image_smile{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 400px;
+    top: 150px;
+}
+.blur {
+    position: absolute;
+    filter: blur(86px);
+    background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.35) 25.59%, rgba(255, 14, 222, 0.35) 100.44%);
+    width: 415px;
+    height: 415px;
+    z-index: 0;
+    left: 250px;
+    top: 200px;
+}
+.main__title {
+    position: absolute;
+    width: 717px;
+    height: 241px;
+    left: 220px;
+    top: 303px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 105%;
+    color: white;
+    margin-left: 80px;
+}
+.main__title_text {
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+}
+.main__title_text_bolder{
+    font-weight: bolder;
+}
+.main__title_text_additional{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    color: #CECECE;
+    margin-top: 0px;
+    margin-bottom: 67px;
+}
+.buttonNft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 331px;
+    height: 66px;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 130%;
+    background: linear-gradient(92.84deg, #1DD844 1.44%, #CBF62E 126.29%);
+    box-shadow: 1px 4px 9px rgba(49, 228, 9, 0.508);
+    color: #242424;
+    font-family: sans-serif;
+}
+.buttonNft:hover{
+    box-shadow: 3px 7px 9px 5px rgba(49, 228, 9, 0.508);
+    color: #242424;
+}
